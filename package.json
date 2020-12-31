@@ -1,0 +1,25 @@
+{
+  "name": "turmoil-engine",
+  "version": "0.0.1",
+  "description": "2D Game Engine",
+  "main": "index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "install": "binwrap-install",
+    "prepare": "binwrap-prepare",
+    "test": "binwrap-test",
+    "prepublish": "npm test"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "bin"
+  ],
+  "bin": {
+    "turmoil": "bin/turmoil",
+    "turmoilc": "bin/turmoilc"
+  },
+  "dependencies": {
+    "binwrap": "^0.2.2"
+  }
+}
